@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { mapActions, mapState } from 'pinia';
+import { mapState } from 'pinia';
 import { useTodos } from '@/stores/todos';
 
 import HeaderBar from '@/components/Header.vue';
