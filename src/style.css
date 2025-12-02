@@ -36,3 +36,68 @@
 .nav-link {
   margin: 0 8px;
 }
+
+.todo-list {
+  list-style: none; 
+  padding-left: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 6px 0;
+}
+
+.todo-item::before {
+  content: '\2022'; 
+  color: #333;
+  margin-right: 0.6rem;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.todo-text {
+  flex: 1 1 auto;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.btn-done {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.btn-remove {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.btn-done:disabled,
+.btn-remove:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.btn-edit {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.edit-input {
+  flex: 1 1 auto;
+  padding: 4px 6px;
+}
