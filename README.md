@@ -5,6 +5,9 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Link Github Saya 
 https://github.com/RendyRadithya/TodoLanjut.git 
 
+## Link Video Loom
+https://www.loom.com/share/02b2e3d068e548d6abe8fbf64c150740
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
